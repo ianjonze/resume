@@ -2,21 +2,21 @@
 
 
 
-body{
-    margin:0;
+body {
+    margin: 0;
     Padding: 0;
 }
 
-.heading{
-    margin-left:50px;
+.heading {
+    margin-left: 50px;
 }
 
-header{
-    margin:0;
+header {
+    margin: 0;
 }
 
-.logo{
-    background-image:url("../images/ian.jpg");
+.logo {
+    background-image: url("../images/ian.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,14 +25,14 @@ header{
     -o-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    margin:0;
+    margin: 0;
 }
 
-.bg-color-name-title{
+.bg-color-name-title {
     background-color: #1c1c1c;
 }
 
-.name{
+.name {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 46px;
@@ -40,7 +40,7 @@ header{
     color: #ffffff;
 }
 
-.occupation{
+.occupation {
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     font-size: 28px;
@@ -48,47 +48,48 @@ header{
     margin-bottom: 80px;
     color: #ffffff;
 
-    
+
 }
 
-.ul-menu-color-home{
-    background-color:#406244;
-    
+.ul-menu-color-home {
+    background-color: #406244;
+
 }
 
-.ul-menu-color-resume{
-    background-color:#dab71f;
+.ul-menu-color-resume {
+    background-color: #dab71f;
 }
 
-.ul-menu-color-contact{
-    background-color:#d8832b;
+.ul-menu-color-contact {
+    background-color: #d8832b;
 }
 
-.ul-menu-color-download{
-    background-color:#c94d4d;
+.ul-menu-color-download {
+    background-color: #c94d4d;
 }
 
-.menu-item{
+.menu-item {
     height: 120px;
     text-align: center;
-    padding:0;
+    padding: 0;
 }
-.menu-item a{
+
+.menu-item a {
     width: 100%;
     text-decoration: none;
     color: #ffffff;
     height: 120px;
 }
 
-.menu-item a i{
-    padding-top: 22px;
+.menu-item a i {
+    padding-top: 25px;
     display: block;
     color: #fafafa;
     font-size: 26px;
-    
+
 }
 
-.menu-item span{
+.menu-item span {
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -96,9 +97,105 @@ header{
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
-    
 }
 
 #nav {
     margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color
+}
+
+.hvr-fade:active,
+.hvr-fade:focus,
+.hvr-fade:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 100;
+}
+
+footer .cv-pdf {
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf:hover {
+    color: #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    height: 32px;
+    width: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    color: #fafafa;
+    text-align: center;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#footer-details{
+    margin:20px;
 }
