@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:100,200,300,400,500,600|Oswald:100,200,300,400,500,600');
 
-
-
 body {
     margin: 0;
     Padding: 0;
@@ -32,6 +30,15 @@ header {
     background-color: #1c1c1c;
 }
 
+.bg-color-three-reasons {
+    background-color: #ffffff;
+}
+
+.bg-color-personal-info {
+    background-color: #2c2c2c;
+    color: white;
+}
+
 .name {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -52,7 +59,7 @@ header {
 }
 
 .ul-menu-color-home {
-    background-color: #406244;
+    background-color: #d8832b;
 
 }
 
@@ -61,7 +68,7 @@ header {
 }
 
 .ul-menu-color-contact {
-    background-color: #d8832b;
+    background-color:  #406244;
 }
 
 .ul-menu-color-download {
@@ -86,7 +93,6 @@ header {
     display: block;
     color: #fafafa;
     font-size: 26px;
-
 }
 
 .menu-item span {
@@ -149,7 +155,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
-    font-family: 'Oswald',sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 100;
 }
 
@@ -196,6 +202,98 @@ footer .cv-pdf:hover {
     -o-transition: all 0.35s ease-in-out;
 }
 
-#footer-details{
-    margin:20px;
+#footer-details {
+    margin: 20px;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column{
+    font-family:'Oswald',sans-serif;
+    font-weight:100;
+    padding:40px;
+}
+
+@media (min-width:992px) {
+    .section-column {
+        padding: 0 30px;
+        float: none;
+        display: table-cell;
+    }
+}
+
+.section-heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*three reasons****************************************/
+
+.three-reasons-icon {
+    font-size: 36px;
+    color: #d8832b;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/*personal Info****************************************/
+
+
+.personal-info-item{
+    margin-bottom:20px;
+    display:block;
+    clear: both;
+    font-family:'Oswald',sans-serif;
+    font-weight:100;
+    padding-left:20px;
+}
+
+.personal-info-item .key,
+.personal-info-item .key{
+    padding-right:8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .key p{
+    margin:0;
+}
+
+.personal-info-item .key{
+    display:inline-block;
+    width:30%;
+    margin-right:21px;
+    padding-top:2px;
+    vertical-align:top;
+}
+
+.personal-info-item .key p{
+    font-weight: 400;
+}
+
+.personal-info-item value{
+    display:inline-block;
+    position:relative;
+    Width:60%;
+}
+
+/*skills*/
+
+.progress{
+    position:relative;
+    height:25px;
+}
+
+.progress-type{
+    position:absolute;
+    left:0px;
+    font-weight:400;
+    padding:3px 30px 2px 10px;
+    color:#fafafa;
+    background-color:rgba(25,25,25,0.2);
 }
