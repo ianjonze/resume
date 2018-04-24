@@ -57,6 +57,11 @@ header {
     color: white;
 }
 
+.bg-color-contact{
+    background-color: #2c2c2c;
+    color: white;
+}
+
 .name {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -89,9 +94,12 @@ header {
     background-color:  #406244;
 }
 
+
 .ul-menu-color-download {
     background-color: #c94d4d;
 }
+
+
 
 .menu-item {
     height: 120px;
@@ -235,12 +243,7 @@ footer .cv-pdf:hover {
     padding:40px;
 }
 
-@media (min-width:992px) {
-    .section-column {
-        float: none;
-        display: table-cell;
-    }
-}
+
 
 .section-heading {
     font-family: 'Oswald', sans-serif;
@@ -321,7 +324,7 @@ footer .cv-pdf:hover {
     background-color:rgba(25,25,25,0.2);
 }
 
-/* work history- Timeline*/
+/* Work history- Timeline*/
 
 .timeline-item{
     padding: 4em 2em 0em 2em;
@@ -359,4 +362,41 @@ footer .cv-pdf:hover {
     content: '';
     background-color: #dab71f;
     color: #dab71f;
+}
+
+/*contact*/
+
+.contact-heading{
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    margin-top: 25px;
+    margin-bottom:20px;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin:0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin:15px;
+    background-color:#406244;
+    color: #fff;
+}
+
+/*media-query*/
+
+@media (min-width:992px) {
+    .section-column {
+        float: none;
+        display: table-cell;
+    }
+
+    .center-form{
+        padding-top: 10px;
+        min-height: 240px;
+        margin:0 auto;
+        max-width: 50%;
+    }
 }
